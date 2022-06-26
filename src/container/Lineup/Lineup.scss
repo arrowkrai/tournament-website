@@ -1,0 +1,90 @@
+.slick-slider {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 5rem;
+}
+
+.app__lineup-header {
+  padding-top: 2rem;
+  font-size: 40px;
+  font-family: var(--font-special);
+  text-align: center;
+}
+
+
+.app__lineup {
+  background: var(--bg-gray-secondary);
+  background: url('../../assets/bgGrad.jpg');
+  color: var(--text-white);
+}
+
+.slider-item-content {
+  background-color: var(--bs-gray-100);
+  display: flex;
+  flex-direction: row;
+  margin: 0 2rem;
+  padding: 1rem;
+  border: 1px solid var(--bs-secondary);
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  color: black;
+  font-size: 1.25rem;
+
+  img {
+    width: 500px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  @media screen and (max-width: 992px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    h1 {
+      font-size: 2rem;
+      margin-top: 0.5rem;
+
+    }
+    
+
+  }
+
+  @media screen and (max-width: 800px) {
+    img {
+      width: 100%;
+    }
+  }
+
+}
+
+.slider-item-text {
+  margin: 0 1rem;
+  h1 {
+    font-family: var(--font-special);
+  }
+
+  a svg {
+    font-size: 24px;
+    transition: all 0.1s ease-in;
+    &:hover {
+
+      color: var(--text-red);
+    }
+  }
+}
+
+.app__lineup-slider-left,
+.app__lineup-slider-right {
+  svg {
+    cursor: pointer;
+    font-size: 40px;
+    transition: all 0.1s ease-in;
+    &:hover {
+      color: var(--text-red);
+    }
+  }
+}

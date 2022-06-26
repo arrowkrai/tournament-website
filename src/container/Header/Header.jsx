@@ -12,10 +12,10 @@ const Header = () => {
           <div className="app__header-info">
             <h2>GENESIS 8</h2>
             <h1>SMASH TOURNAMENT</h1>
-            <p>Compete in the Super Smash Bros community's <br /> premier grassroots tournament series since 2009.</p>
+            <p>Compete in the Super Smash Bros community's premier tournament series.</p>
             <div className="app__header-buttons">
-              <a className="text-decoration-none app__header-buttons-register" href=""><GiConsoleController/>REGISTER NOW</a>
-              <a className="text-decoration-none app__header-buttons-tickets" href=""><GiTicket/>GET TICKETS</a>
+              <a className="text-decoration-none app__header-buttons-register" href="#register"><GiConsoleController/>REGISTER NOW</a>
+              <a className="text-decoration-none app__header-buttons-tickets" href="#tickets"><GiTicket/>GET TICKETS</a>
             </div>
           </div>
         </motion.div>
