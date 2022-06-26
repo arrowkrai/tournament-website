@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&family=Open+Sans&family=Roboto:wght@400;500;700&display=swap");
 
 :root {
-  --font-chakra: "Chakra Petch", sans-serif;
+  --font-special: "Chakra Petch", sans-serif;
+  --text-white: #fff;
+  --text-red: #E50914;
+  --bg-primary: #800000;
+  --bg-gray: #191919;
+  
+
+
 }
 
 * {

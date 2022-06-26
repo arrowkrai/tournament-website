@@ -5,3 +5,4 @@ export { default as Navbar } from "./Navbar/Navbar";
 export { default as Signup } from "./Signup/Signup";
 export { default as Sponsors } from "./Sponsors/Sponsors";
 export { default as Tickets } from "./Tickets/Tickets";
+export { default as Location } from "./Location/Location";
