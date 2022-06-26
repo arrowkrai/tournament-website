@@ -1,13 +1,5 @@
 .app__navbar {
   background-color: var(--bg-gray);
-  width: 100%;
-
-  display: flex;
-  justify-content: space-between;
-
-  align-items: center;
-  padding: 1rem 2rem;
-  position: fixed;
 }
 
 .app__navbar-logo {
@@ -24,10 +16,11 @@
 .app__navbar-links {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   
   list-style: none;
+  margin: 0;
   
   li {
     margin: 0 1rem;
@@ -62,7 +55,7 @@
     transition: all 0.2s ease-in-out;
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1000px) {
     display: none;
   }
 }
@@ -129,12 +122,18 @@
 
     }
 
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: 1000px) {
       display: none;
     }
   }
 
-  @media screen and (min-width: 900px) {
+  @media screen and (min-width: 1000px) {
     display: none;
+  }
+}
+
+.app__navbar-icons {
+  svg {
+    color: white;
   }
 }

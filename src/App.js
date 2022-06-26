@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Footer, Header, Lineup, Navbar, Signup, Sponsors, Tickets, Location } from "./container";
+import { Footer, Header, Lineup, Navbar, Register, Sponsors, Tickets, Location } from "./container";
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Lineup />
-      <Signup />
+      <Register />
       <Tickets />
       <Location />
       <Sponsors />
