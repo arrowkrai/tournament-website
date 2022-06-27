@@ -24,6 +24,7 @@
   h2 {
     font-family: var(--font-special);
     font-size: 40px;
+    font-weight: 700;
   }
 
   p {
@@ -55,10 +56,10 @@
 
 .app__header-buttons {
   .app__header-buttons-register {
+    border-radius: 2px;
     font-weight: 500;
     font-size: 20px;
-    // background-color: var(--text-blue);
-    background-color: var(--bs-primary);
+    background-color: var(--bs-danger);
     color: var(--text-white);
     padding: 0.5rem 1rem;
     margin: 1rem;
@@ -75,7 +76,7 @@
     }
 
     &:hover {
-      background-color: var(--text-blue);
+      background-color: var(--text-red);
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     }
 
@@ -86,9 +87,11 @@
     }
   }
   .app__header-buttons-tickets {
+    border-radius: 2px;
     font-weight: 500;
     font-size: 20px;
-    background-color: var(--bs-danger);
+    background-color: var(--bs-primary);
+
     color: var(--text-white);
     padding: 0.5rem 1rem;
     margin: 1rem;
@@ -105,7 +108,7 @@
     }
 
     &:hover {
-      background-color: var(--text-red);
+      background-color: var(--text-blue);
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     }
 

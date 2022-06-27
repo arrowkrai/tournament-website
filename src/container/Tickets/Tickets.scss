@@ -1,0 +1,94 @@
+
+.app__tickets {
+  background: url('../../assets/mariochar.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20rem 0;
+  z-index: 1;
+  width: 100%;
+
+  
+}
+.app__tickets-cards {
+  color: var(--text-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__tickets-card {
+  z-index: 2;
+  width: 100%;
+  background: rgba(31, 32, 41, 0.72);
+  color: var(--text-white);
+  text-align: center;
+  padding: 1rem;
+  margin: 0 2rem;
+  border: 2px solid var(--bs-gray-700);
+  border-radius: 4px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-family: var(--font-special);
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    li {
+      margin: 0.4rem 0;
+    }
+    svg {
+      color: var(--bs-success);
+      margin-bottom: 2px;
+    }
+  }
+  
+  img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+
+}
+
+.app__tickets-card-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 1rem;
+  
+  h2 {
+    font-family: var(--font-special);
+    margin: 0;
+  }
+  button {
+    font-family: var(--font-special
+    );
+    background: var(--bs-primary);
+    padding: 6px 12px;
+    font-weight: 700;
+    color: var(--text-white);
+    font-size: 1.1rem;
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+
+    transition: all 0.2s ease-in-out;
+    svg {
+      margin-bottom: 2px;
+      font-size: 1.2rem;
+    }
+    &:hover {
+      background: var(--text-blue);
+    }
+  }
+}

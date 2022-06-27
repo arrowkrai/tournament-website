@@ -3,8 +3,8 @@ import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import { FaTwitter } from "react-icons/fa";
 import Slider from "react-slick";
 import mkleo from "../../assets/mkleo.jpg";
-import zain from '../../assets/zain.jpg';
-import shuton from '../../assets/shuton.jpg'
+import zain from "../../assets/zain.jpg";
+import shuton from "../../assets/shuton.jpg";
 import "./Lineup.scss";
 import { motion } from "framer-motion";
 
@@ -28,19 +28,22 @@ const smashPlayers = [
   {
     picture: mkleo,
     name: "MkLeo",
-    description: "MkLeo, also known simply as Leo, is a smasher from Mexico. He is widely considered to be the best Super Smash Bros. Ultimate player in the world, dominating the competitive scene since the game's release. He is currently ranked 1st on the Mexican Ultimate Power Rankings, OrionRank Ultimate: Eclipse North America, OrionRank Ultimate: Eclipse, and PGRUContenders North America.",
+    description:
+      "MkLeo, also known simply as Leo, is a smasher from Mexico. He is widely considered to be the best Super Smash Bros. Ultimate player in the world, dominating the competitive scene since the game's release. He is currently ranked 1st on the Mexican Ultimate Power Rankings, OrionRank Ultimate: Eclipse North America, OrionRank Ultimate: Eclipse, and PGRUContenders North America.",
     twitter: "https://twitter.com/Mkleosb",
   },
   {
     picture: zain,
     name: "Zain",
-    description: "Zain, also known as DontTestMe is a Melee Marth main from Reston, Virginia and is considered to be one of the best Melee players in the world. He is known for his incredibly lethal punish game on space animal players and methodical play against floaty characters, and is currently considered to be the best Marth player in the world.",
+    description:
+      "Zain, also known as DontTestMe is a Melee Marth main from Reston, Virginia and is considered to be one of the best Melee players in the world. He is known for his incredibly lethal punish game on space animal players and methodical play against floaty characters, and is currently considered to be the best Marth player in the world.",
     twitter: "https://twitter.com/ZainNaghmi",
   },
   {
     picture: shuton,
     name: "Shuton",
-    description: "Shuton (しゅーとん) is a Super Smash Bros. Ultimate Pyra, Mythra, and Olimar player from Fukuoka, Japan. He is considered the best Pyra and Mythra player in Japan and one of the two best Olimar players in the world, along with Dabuz. With his consistently strong performances both in Japan and abroad, he is considered one of the best players in Japan.",
+    description:
+      "Shuton (しゅーとん) is a Super Smash Bros. Ultimate Pyra, Mythra, and Olimar player from Fukuoka, Japan. He is considered the best Pyra and Mythra player in Japan and one of the two best Olimar players in the world, along with Dabuz. With his consistently strong performances both in Japan and abroad, he is considered one of the best players in Japan.",
     twitter: "https://twitter.com/syu_tolimar",
   },
 ];
@@ -59,9 +62,7 @@ const Lineup = () => {
   return (
     <div className="app__lineup">
       <div className="container">
-        <motion.div whileInView={{ y: [50, 0], opacity: [0, 1] }} transition={{ delay: 0.25, duration: 0.5 }}>
-          <h1 className="app__lineup-header">Meet Your Competitors</h1>
-        </motion.div>
+        <h1 className="app__lineup-header">Meet Your Competitors</h1>
         <Slider {...settings}>
           {smashPlayers.map((player) => (
             <div className="slider-item" key={player.name}>
