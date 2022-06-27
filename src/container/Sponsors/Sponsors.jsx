@@ -42,7 +42,7 @@ const Sponsors = () => {
             <p>
               Genesis would not be able to exist without the help from our sponsors.
               <br /> We encourage everyone to support these buisnesses as they support our tournament.
-              <br /> If you are interested in becoming a sponsor, please contact <a href="mailto:business@smashtournament.com">business@smashtournament.com</a>
+              <br /> If you are interested in becoming a sponsor, please contact <a href="mailto:business@genesisgaming.gg">business@genesisgaming.gg</a>
             </p>
           </div>
         </div>
