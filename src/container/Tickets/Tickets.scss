@@ -14,6 +14,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
 }
 
 .app__tickets-card {
@@ -35,6 +38,11 @@
 
   h1 {
     font-family: var(--font-special);
+    font-size: 2.5rem;
+
+    @media screen and (max-width: 1400px) {
+      font-size: 2.0rem;
+    }
   }
 
   ul {
@@ -44,10 +52,19 @@
     li {
       margin: 0.4rem 0;
     }
-    svg {
-      color: var(--bs-success);
-      margin-bottom: 2px;
+    .app__tickets-card-yes {
+      svg {
+        color: var(--bs-success);
+        margin-bottom: 2px;
+      }
     }
+    .app__tickets-card-no {
+      svg {
+        color: var(--bs-danger);
+        margin-bottom: 2px;
+      }
+    }
+
   }
   
   img {
@@ -56,6 +73,20 @@
     border-radius: 4px;
   }
 
+  @media screen and (max-width: 1200px) {
+    width: calc(min(332px, 100%));
+    margin: 1rem 0;
+  }
+
+  &:last-child {
+    div button {
+      background-color: var(--bs-danger);
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background-color: var(--bg-primary);
+      }
+    }
+  }
 }
 
 .app__tickets-card-price {
