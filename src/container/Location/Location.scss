@@ -4,12 +4,21 @@
   align-items: center;
   margin: 10rem 0;
 
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
+
 }
 
 .app__location-map {
   flex: 1;
   margin: 0 1rem;
 
+  iframe {
+    height: 100%;
+    width: 100%;
+
+  }
 }
 
 .app__location-info {
