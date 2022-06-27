@@ -19,8 +19,8 @@ const Navbar = () => {
         <div className="app__navbar-links">
           <ul className="app__navbar-links">
             {["home", "competitors", "register", "location"].map((item) => (
-              <a href={`#${item}`}>
-                <li key={`link-${item}`}>{item}</li>
+              <a href={`#${item}`} key={`link-${item}`}>
+                <li>{item}</li>
               </a>
             ))}
 
