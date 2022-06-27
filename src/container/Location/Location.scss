@@ -1,0 +1,22 @@
+.app__location-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem 0;
+
+}
+
+.app__location-map {
+  flex: 1;
+  margin: 0 1rem;
+
+}
+
+.app__location-info {
+  flex: 1;
+  text-align: start;
+  h1 {
+    font-family: var(--font-special);
+  }
+
+}
