@@ -6,7 +6,7 @@ import "./Header.scss";
 
 const Header = () => {
   return (
-    <div className="app__header">
+    <div className="app__header" id="home">
       <div className="container">
         <motion.div whileInView={{ y: [50, 0], opacity: [0, 1] }} transition={{ duration: 0.4 }} className="app__header-motion">
           <div className="app__header-info">

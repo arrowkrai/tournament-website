@@ -4,7 +4,7 @@ import "./Register.scss";
 
 const Register = () => {
   return (
-    <div className="app__register">
+    <div className="app__register" id="register">
       <div className="container">
         <div className="app__content">
           <div className="app__content-left">

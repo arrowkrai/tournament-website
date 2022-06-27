@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
-import { FaTwitter } from 'react-icons/fa'
+import { FaTwitter } from "react-icons/fa";
 import { motion } from "framer-motion";
 import smashball from "../../assets/smashball.png";
 import "./Navbar.scss";
-
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,18 +12,21 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg app__navbar fixed-top">
       <div className="container">
         <div className="app__navbar-logo">
-          <img src={smashball} alt="logo" />
+          <a href="#">
+            <img src={smashball} alt="logo" />
+          </a>
         </div>
         <div className="app__navbar-links">
           <ul className="app__navbar-links">
             {["home", "competitors", "register", "location"].map((item) => (
-              <li key={`link-${item}`}>
-                <a href={`#${item}`}>{item}</a>
-              </li>
+              <a href={`#${item}`}>
+                <li key={`link-${item}`}>{item}</li>
+              </a>
             ))}
-            <li key="link-tickets">
-              <a href="#tickets">Tickets</a>
-            </li>
+
+            <a href="#tickets">
+              <li key="link-tickets">Tickets</li>
+            </a>
           </ul>
         </div>
         {/* May Implement Icons Laters
@@ -40,11 +42,9 @@ const Navbar = () => {
               <HiX onClick={() => setToggle(false)} />
               <ul className="app__navbar-links">
                 {["home", "competitors", "register", "location", "tickets"].map((item) => (
-                  <li key={item}>
-                    <a href={`#${item}`} onClick={() => setToggle(false)}>
-                      {item}
-                    </a>
-                  </li>
+                  <a href={`#${item}`} onClick={() => setToggle(false)}>
+                    <li style={{margin: "1.5rem"}} key={item}>{item}</li>
+                  </a>
                 ))}
               </ul>
             </motion.div>
@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

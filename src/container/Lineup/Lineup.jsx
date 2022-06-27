@@ -60,7 +60,7 @@ const Lineup = () => {
   };
 
   return (
-    <div className="app__lineup">
+    <div className="app__lineup" id="competitors">
       <div className="container">
         <h1 className="app__lineup-header">Meet Your Competitors</h1>
         <Slider {...settings}>

@@ -9,7 +9,7 @@ import "./Tickets.scss";
 
 const Tickets = () => {
   return (
-    <div className="app__tickets">
+    <div className="app__tickets" id="tickets">
       <div className="container">
         <div className="app__tickets-cards">
 
