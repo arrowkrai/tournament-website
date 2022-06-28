@@ -26,7 +26,7 @@ const Tickets = () => {
               <li className="app__tickets-card-no"><BsX /> Compete in the tournament series</li>
             </ul>
             <div className="app__tickets-card-price">
-              <h2>$59</h2>
+              <h2>$45</h2>
               <button><GoCreditCard /> PURCHASE</button>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Tickets = () => {
               <li className="app__tickets-card-no"><BsX /> Compete in the tournament series</li>
             </ul>
             <div className="app__tickets-card-price">
-              <h2>$79</h2>
+              <h2>$65</h2>
               <button><GoCreditCard /> PURCHASE</button>
             </div>
           </div>
@@ -62,7 +62,7 @@ const Tickets = () => {
               <li className="app__tickets-card-yes"><BsCheck2 /> Compete in the tournament series</li>
             </ul>
             <div className="app__tickets-card-price">
-              <h2>$99</h2>
+              <h2>$95</h2>
               <button><GoCreditCard /> PURCHASE</button>
             </div>
           </div>
