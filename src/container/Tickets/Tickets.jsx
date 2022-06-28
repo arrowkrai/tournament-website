@@ -27,7 +27,7 @@ const Tickets = () => {
             </ul>
             <div className="app__tickets-card-price">
               <h2>$45</h2>
-              <button><GoCreditCard /> PURCHASE</button>
+              <a target="_blank" rel="noreferrer" href='https://buy.stripe.com/test_00gcP12Z923PePK000'><GoCreditCard /> PURCHASE</a>
             </div>
           </div>
           
@@ -45,7 +45,7 @@ const Tickets = () => {
             </ul>
             <div className="app__tickets-card-price">
               <h2>$65</h2>
-              <button><GoCreditCard /> PURCHASE</button>
+              <a target="_blank" rel="noreferrer" href='https://buy.stripe.com/test_7sIaGTbvFdMx372fYZ'><GoCreditCard /> PURCHASE</a>
             </div>
           </div>
           
@@ -63,7 +63,7 @@ const Tickets = () => {
             </ul>
             <div className="app__tickets-card-price">
               <h2>$95</h2>
-              <button><GoCreditCard /> PURCHASE</button>
+              <a target="_blank" rel="noreferrer" href='https://buy.stripe.com/test_eVadT5bvFeQB4b6002'><GoCreditCard /> PURCHASE</a>
             </div>
           </div>
           

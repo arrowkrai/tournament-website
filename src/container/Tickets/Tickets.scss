@@ -74,7 +74,7 @@
   }
 
   &:last-child {
-    div button {
+    div a {
       background-color: var(--bs-danger);
       transition: all 0.2s ease-in-out;
       &:hover {
@@ -172,7 +172,8 @@
     font-family: var(--font-special);
     margin: 0;
   }
-  button {
+  a {
+    text-decoration: none;
     font-family: var(--font-special);
     background: var(--bs-primary);
     padding: 6px 12px;
