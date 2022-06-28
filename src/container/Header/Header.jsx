@@ -8,7 +8,6 @@ const Header = () => {
   return (
     <div className="app__header" id="home">
       <div className="container">
-        <motion.div animate={{ y: [50, 0], opacity: [0, 1] }} transition={{ duration: 0.4 }} className="app__header-motion">
           <div className="app__header-info">
             <h2>GENESIS 8</h2>
             <h1>SMASH TOURNAMENT</h1>
@@ -24,7 +23,6 @@ const Header = () => {
               </a>
             </div>
           </div>
-        </motion.div>
       </div>
     </div>
   );
