@@ -71,7 +71,7 @@ const Lineup = () => {
                 <div className="slider-item-text">
                   <h1>{player.name}</h1>
                   <p>{player.description}</p>
-                  <a href={player.twitter}>
+                  <a target="_blank" href={player.twitter}>
                     <FaTwitter />
                   </a>
                 </div>
