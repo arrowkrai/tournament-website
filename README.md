@@ -1,13 +1,10 @@
-
-<h1 align="center">
-  Genesis Smash Tournament
-</h1>
+# Genesis Smash Tournament
 
 ![demo](https://raw.githubusercontent.com/arrowkrai/tournament-website/main/src/assets/demo.jpeg)
 
 ## Installation & Set Up
 
-1. Install the node modules
+1. Install Dependencies
 
    ```sh
    npm install
