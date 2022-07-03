@@ -1,3 +1,4 @@
+
 # Genesis Smash Tournament
 
 ![demo](https://raw.githubusercontent.com/arrowkrai/tournament-website/main/src/assets/demo.jpeg)
