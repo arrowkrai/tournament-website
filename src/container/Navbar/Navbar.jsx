@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
-import { FaTwitter } from "react-icons/fa";
 import { motion } from "framer-motion";
 import smashball from "../../assets/smashball.png";
 import "./Navbar.scss";
@@ -29,10 +28,6 @@ const Navbar = () => {
             </a>
           </ul>
         </div>
-        {/* May Implement Icons Laters
-        <div className="app__navbar-icons">
-          <FaTwitter />
-        </div> */}
 
         <div className="app__navbar-menu">
           <HiMenuAlt4 onClick={() => setToggle(true)} />

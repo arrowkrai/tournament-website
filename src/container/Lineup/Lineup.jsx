@@ -6,7 +6,6 @@ import mkleo from "../../assets/mkleo.jpg";
 import zain from "../../assets/zain.jpg";
 import shuton from "../../assets/shuton.jpg";
 import "./Lineup.scss";
-import { motion } from "framer-motion";
 
 function NextArrow(props) {
   return (
@@ -71,25 +70,13 @@ const Lineup = () => {
                 <div className="slider-item-text">
                   <h1>{player.name}</h1>
                   <p>{player.description}</p>
-                  <a target="_blank" href={player.twitter}>
+                  <a target="_blank" rel="noreferrer" href={player.twitter}>
                     <FaTwitter />
                   </a>
                 </div>
               </div>
             </div>
           ))}
-          {/* <div className="slider-item">
-            <div className="slider-item-content">
-              <img src={ab1} alt="" />
-              <div className="slider-item-text">
-                <h1>MkLeo</h1>
-                <p>MkLeo is known as of the best smash players in the community. He is known for playing exceptionally well at characters with peach.</p>
-                <a href="">
-                  <FaTwitter />
-                </a>
-              </div>
-            </div>
-          </div> */}
         </Slider>
       </div>
     </div>

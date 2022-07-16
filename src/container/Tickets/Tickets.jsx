@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import ticket1 from "../../assets/ticket1.jpg";
 import ticket2 from "../../assets/ticket2.jpg";
 import ticket3 from "../../assets/ticket3.jpg";

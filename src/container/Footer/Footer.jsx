@@ -12,8 +12,8 @@ const Footer = () => {
             © {new Date().getFullYear()} GENESIS
           </div>
           <div className="app__footer-content-right">
-            <a target="_blank" href="https://twitter.com/Genesis_smash"><FaTwitter /></a>
-            <a target="_blank" href="https://www.genesisgaming.gg"><FaExternalLinkAlt /></a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/Genesis_smash"><FaTwitter /></a>
+            <a target="_blank" rel="noreferrer" href="https://www.genesisgaming.gg"><FaExternalLinkAlt /></a>
           </div>
         </div>
       </div>
